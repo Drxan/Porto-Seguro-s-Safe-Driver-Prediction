@@ -1,0 +1,11 @@
+CPMP----------------------------------
+I get to 0.283 LB with a single xgb model with no feature engineering besides one hot encoding and some feature selection. I am now starting ensembling.
+
+0.001 improvement isn't a lot but it means a lot in the LB.
+
+RajivKumar--------------------------------------------
+No feature engineering but some careful feature selection( top predictors from random forest) got me to .284 with stacking my two best models of .282 LB scores. I am experimenting various new features to get to next level
+
+Jason Benner-----------------------------------------------------
+I have been able to get up to 0.284 using an awesome stacking kernel. I have some ideas on things to tweak given other public kernels I have been looking at
+
